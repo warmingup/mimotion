@@ -149,7 +149,7 @@ def getBeijinTime():
         if len(user_list) == len(passwd_list):
             for user_mi, passwd_mi in zip(user_list, passwd_list):
                 #main(user_mi,passwd_mi,min_1, max_1, a) 
-                main(user_mi,passwd_mi,20000, 25000, a) 
+                main(user_mi,passwd_mi,10000, 12000, a) 
     else:
         print("当前不是主人设定的提交步数时间或者主人设置了0步数呢，本次不提交")
         return
